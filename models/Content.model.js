@@ -11,6 +11,7 @@ const contentSchema = new Schema({
     contentBody: {type: String, required: true},
 });
 
-// estou exportando o modelo que tem esse nome(entidade criada) e está receita(o schema que você criou anteriormente). A exportação é desta maneira
+// estou exportando o modelo que tem esse nome(entidade criada)
+// e está receita(o schema que você criou anteriormente). A exportação é desta maneira
 module.exports = mongoose.model("Content", contentSchema);
 
